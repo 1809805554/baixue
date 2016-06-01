@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1835851C1C575F66001085B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835851B1C575F66001085B7 /* main.m */; };
+		183585241C575F7E001085B7 /* Plant.m in Sources */ = {isa = PBXBuildFile; fileRef = 183585231C575F7E001085B7 /* Plant.m */; };
+		183585271C576017001085B7 /* Pea.m in Sources */ = {isa = PBXBuildFile; fileRef = 183585261C576017001085B7 /* Pea.m */; };
+		1835852A1C576027001085B7 /* SnowPea.m in Sources */ = {isa = PBXBuildFile; fileRef = 183585291C576027001085B7 /* SnowPea.m */; };
+		1835852D1C57604A001085B7 /* Nut.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835852C1C57604A001085B7 /* Nut.m */; };
+		183585301C576082001085B7 /* Goast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1835852F1C576082001085B7 /* Goast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		183585161C575F66001085B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		183585181C575F66001085B7 /* 植物大战僵尸 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "植物大战僵尸"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1835851B1C575F66001085B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183585221C575F7E001085B7 /* Plant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plant.h; sourceTree = "<group>"; };
+		183585231C575F7E001085B7 /* Plant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plant.m; sourceTree = "<group>"; };
+		183585251C576017001085B7 /* Pea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pea.h; sourceTree = "<group>"; };
+		183585261C576017001085B7 /* Pea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pea.m; sourceTree = "<group>"; };
+		183585281C576027001085B7 /* SnowPea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowPea.h; sourceTree = "<group>"; };
+		183585291C576027001085B7 /* SnowPea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowPea.m; sourceTree = "<group>"; };
+		1835852B1C57604A001085B7 /* Nut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nut.h; sourceTree = "<group>"; };
+		1835852C1C57604A001085B7 /* Nut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nut.m; sourceTree = "<group>"; };
+		1835852E1C576082001085B7 /* Goast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goast.h; sourceTree = "<group>"; };
+		1835852F1C576082001085B7 /* Goast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goast.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183585151C575F66001085B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1835850F1C575F66001085B7 = {
+			isa = PBXGroup;
+			children = (
+				1835851A1C575F66001085B7 /* 植物大战僵尸 */,
+				183585191C575F66001085B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183585191C575F66001085B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183585181C575F66001085B7 /* 植物大战僵尸 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1835851A1C575F66001085B7 /* 植物大战僵尸 */ = {
+			isa = PBXGroup;
+			children = (
+				1835851B1C575F66001085B7 /* main.m */,
+				183585221C575F7E001085B7 /* Plant.h */,
+				183585231C575F7E001085B7 /* Plant.m */,
+				183585251C576017001085B7 /* Pea.h */,
+				183585261C576017001085B7 /* Pea.m */,
+				183585281C576027001085B7 /* SnowPea.h */,
+				183585291C576027001085B7 /* SnowPea.m */,
+				1835852B1C57604A001085B7 /* Nut.h */,
+				1835852C1C57604A001085B7 /* Nut.m */,
+				1835852E1C576082001085B7 /* Goast.h */,
+				1835852F1C576082001085B7 /* Goast.m */,
+			);
+			path = "植物大战僵尸";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183585171C575F66001085B7 /* 植物大战僵尸 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1835851F1C575F66001085B7 /* Build configuration list for PBXNativeTarget "植物大战僵尸" */;
+			buildPhases = (
+				183585141C575F66001085B7 /* Sources */,
+				183585151C575F66001085B7 /* Frameworks */,
+				183585161C575F66001085B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "植物大战僵尸";
+			productName = "植物大战僵尸";
+			productReference = 183585181C575F66001085B7 /* 植物大战僵尸 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183585101C575F66001085B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					183585171C575F66001085B7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 183585131C575F66001085B7 /* Build configuration list for PBXProject "植物大战僵尸" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1835850F1C575F66001085B7;
+			productRefGroup = 183585191C575F66001085B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183585171C575F66001085B7 /* 植物大战僵尸 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183585141C575F66001085B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183585301C576082001085B7 /* Goast.m in Sources */,
+				183585271C576017001085B7 /* Pea.m in Sources */,
+				1835852A1C576027001085B7 /* SnowPea.m in Sources */,
+				1835852D1C57604A001085B7 /* Nut.m in Sources */,
+				1835851C1C575F66001085B7 /* main.m in Sources */,
+				183585241C575F7E001085B7 /* Plant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1835851D1C575F66001085B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1835851E1C575F66001085B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		183585201C575F66001085B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		183585211C575F66001085B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183585131C575F66001085B7 /* Build configuration list for PBXProject "植物大战僵尸" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1835851D1C575F66001085B7 /* Debug */,
+				1835851E1C575F66001085B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1835851F1C575F66001085B7 /* Build configuration list for PBXNativeTarget "植物大战僵尸" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183585201C575F66001085B7 /* Debug */,
+				183585211C575F66001085B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183585101C575F66001085B7 /* Project object */;
+}
